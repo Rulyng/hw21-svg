@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 23px 0;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #efeef3;
+}
+
+.main {
+  margin-bottom: 100px;
+}
+
+.main__info {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #7690a8;
+  margin-bottom: 15px;
+}
+
+.main__title {
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+  margin-bottom: 40px;
+}
+
+.main__row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main__item-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 21px;
+  letter-spacing: 0.2px;
+  color: #16133d;
+}
+
+.main__item-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #16133d;
+}
+
+.main__item-link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  color: #3db370;
+}
+
+.main__item {
+  border: 1px solid #e5eaf4;
+  border-radius: 8px;
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+}
+
+.main__item:hover {
+  border: 1px solid #3db370;
+}
+
+.main__item:hover svg .path {
+  fill: #e1f4f5;
+}
+
+.main__item:hover svg .path2 {
+  fill: #52c29d;
+}
+
+.footer {
+  background-color: #16133d;
+  padding: 40px 0;
+}
+
+.logo-footer {
+  padding-bottom: 40px;
+}
+
+.footer__social {
+  display: flex;
+  gap: 10px;
+}
